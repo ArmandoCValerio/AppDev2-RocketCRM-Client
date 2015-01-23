@@ -23,7 +23,7 @@ public class KontaktServiceTest {
 		try {
 			//RMI test
 			ks.sayHello();			
-			
+					
 			//Test Alle Anzeigen
 			ks.ZeigeAlleKontakte();
 			
