@@ -33,11 +33,9 @@ public class KontaktServiceTest {
 			
 			//Test Kontakt erstellen
 			k = new Kontakt();
-			k.setcId(26);
 			k.setcNName("NachnameTest");
 			k.setcVName("VornameTest");
 			k.setcCompany("FirmaTest");
-			k.setcVersion(1);
 			ks.ErstelleKontakt(k);
 			
 			//Test Kontakt löschen
